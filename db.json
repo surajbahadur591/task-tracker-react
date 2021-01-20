@@ -1,19 +1,28 @@
 {
-  "posts": [
+  "tasks": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "name": "Create a beautiful portfolio",
+      "day": "monday",
+      "reminder": true
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "name": "Learn New Skill every week",
+      "day": "monday",
+      "reminder": true
+    },
+    {
+      "id": 3,
+      "name": "Make your presence noticible",
+      "day": "monday",
+      "reminder": true
+    },
+    {
+      "name": "drink tea",
+      "day": "monday",
+      "reminder": "false",
+      "id": 4
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
